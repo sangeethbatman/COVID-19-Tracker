@@ -1,4 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### `Code`
+
+All the main codes are avilable in src folder and the dependencies are mentioned in package.json file
 
 ## Available Scripts
 
