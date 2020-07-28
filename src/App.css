@@ -1,0 +1,47 @@
+*{
+  margin:0;
+}
+body{
+  background-image: url("https://wrm5sysfkg-flywheel.netdna-ssl.com/wp-content/uploads/2020/03/COVID-19-Coronavirus.jpg");
+ 
+}
+.app{
+  display:flex;
+  justify-content: space-evenly;
+  padding:20px;
+}
+.app__dropdown{
+  background-color: ivory;
+}
+.app__header >h1 {
+  color:#fc3c3c;
+  
+}
+.app__graph{
+  flex-grow:1;
+}
+.app__graphTitle{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.app__header  {
+  display: flex;
+  align-items: center;
+  
+  margin-bottom: 20px;
+  justify-content: space-between;
+  
+}
+.app__left{
+  flex:0.9;
+}
+.app__stats{
+  display:flex;
+  justify-content: space-between;
+}
+@media (max-width: 990px){
+  .app{
+    flex-direction:column;
+  }
+}
